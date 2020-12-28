@@ -1,12 +1,23 @@
 # npm-helloworld
 
-## Memo
+## メモ
 
 - repo 直下に index.js, index.d.ts を置くようにしている
   - github から直接インストールして使うため
-  - yarn add syunkitada/npm-helloworld
 
-コマンドなど
+```
+# インストール
+$ yarn add syunkitada/npm-helloworld
+```
+
+```
+# 利用方法
+import { Greeter } from "npm-helloworld";
+
+console.log(Greeter("Carl"));
+```
+
+## コマンドなど
 
 ```
 # tesing
